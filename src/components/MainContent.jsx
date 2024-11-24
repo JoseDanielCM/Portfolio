@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Profile from './sections/Profile'
 import Goals from './sections/Goals';
 import Mission from './sections/Mission'
-// import Projects from './sections/Projects'
+import Projects from './sections/Projects'
 import { initScrollObserver } from '../scrollObserver';
 
 function MainContent() {
@@ -21,7 +21,7 @@ function MainContent() {
             
             <Goals/>
             <Mission/>
-            {/*<Projects/>*/}
+            <Projects/>
         </main>
     );
 }
