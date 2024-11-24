@@ -2,8 +2,8 @@
 import React, { useEffect } from 'react';
 import Profile from './sections/Profile'
 import Goals from './sections/Goals';
+import Mission from './sections/Mission'
 // import Projects from './sections/Projects'
-// import Mission from './sections/Mission'
 import { initScrollObserver } from '../scrollObserver';
 
 function MainContent() {
@@ -20,8 +20,8 @@ function MainContent() {
             <Profile />
             
             <Goals/>
-            {/* <Mission/>
-            <Projects/>*/}
+            <Mission/>
+            {/*<Projects/>*/}
         </main>
     );
 }
