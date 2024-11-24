@@ -1,6 +1,6 @@
 // Profile.jsx
 import React from 'react';
-// import ProfileCard from '../InternalSections/ProfileCard'
+import ProfileCard from '../InternalSections/ProfileCard';
 
 function Profile() {
     return (
@@ -27,7 +27,7 @@ function Profile() {
                 <div className="w-44 h-44 md:w-1/6 md:h-1/6  bg-gray-800 rounded-full overflow-hidden flex-shrink-0 mb-4 md:mb-0 relative" style={{ marginLeft: '23.5%', marginBottom:"1%" }}>
                     <img src="/public/ProfilePhoto.png" alt="Profile Photo" className="w-full h-full object-cover" />
                 </div>
-                {/*   <ProfileCard/>*/}
+                <ProfileCard/>
             </div>
         </section>
     );
