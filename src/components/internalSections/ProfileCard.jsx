@@ -2,25 +2,48 @@ import React from "react";
 
 const ProfileCard = () => {
     return (
-        <div className="flex flex-col items-center bg-gradient-to-br from-purple-700 via-purple-900 to-black p-8 rounded-lg shadow-lg text-white max-w-md mx-auto">
+        <div className="group relative flex flex-col items-center bg-gradient-to-br from-purple-800 via-indigo-900 to-black p-8 rounded-xl shadow-xl text-white max-w-md mx-auto transition-transform duration-300 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50">
+            {/* Animated Glow Effect */}
+            <div className="absolute inset-0 blur-md bg-gradient-to-br from-purple-500 via-blue-700 to-black opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-xl"></div>
+            
             {/* Profile Greeting */}
-            <h2 className="text-2xl font-bold mb-4">Hi, I'm Daniel 👋</h2>
-            <p className="text-center">
-                I'm a developer who loves learning and building new things. 
-                I'm always looking for ways to improve and take on new challenges. Welcome!
+            <h2 className="text-3xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-500 group-hover:scale-110 group-hover:opacity-90 transition-transform duration-300 ease-out">
+                Hi, I'm Daniel 👋
+            </h2>
+            <p className="text-center text-lg leading-relaxed opacity-90 group-hover:opacity-100 transition-opacity duration-300">
+                I'm a developer who loves learning and building new things. I'm always looking for ways to improve and take on new challenges. Welcome!
             </p>
             
             {/* Divider */}
-            <div className="w-1/2 h-[1px] bg-white/50 my-6"></div>
+            <div className="w-1/2 h-[1px] bg-gradient-to-r from-purple-300 to-purple-500 my-6 group-hover:scale-x-110 transition-transform duration-300"></div>
             
             {/* Interests Section */}
-            <h3 className="text-xl font-semibold mb-3">What I Enjoy</h3>
-            <ul className="text-neutral-200 text-center space-y-2">
-                <li>💻 Building creative projects</li>
-                <li>📚 Learning new technologies</li>
-                <li>🧠 Solving complex problems</li>
-                <li>🌟 Exploring new ideas</li>
+            <h3 className="text-2xl font-semibold mb-3 text-purple-300 group-hover:opacity-90 transition-opacity duration-300">
+                What I Enjoy
+            </h3>
+            <ul className="text-neutral-300 text-center space-y-3">
+                <li className="flex items-center gap-2 transform group-hover:translate-x-1 transition-transform duration-300">
+                    <span className="text-purple-400">💻</span> Building creative projects
+                </li>
+                <li className="flex items-center gap-2 transform group-hover:translate-x-1 transition-transform duration-300 delay-100">
+                    <span className="text-purple-400">📚</span> Learning new technologies
+                </li>
+                <li className="flex items-center gap-2 transform group-hover:translate-x-1 transition-transform duration-300 delay-200">
+                    <span className="text-purple-400">🧠</span> Solving complex problems
+                </li>
+                <li className="flex items-center gap-2 transform group-hover:translate-x-1 transition-transform duration-300 delay-300">
+                    <span className="text-purple-400">🌟</span> Exploring new ideas
+                </li>
             </ul>
+            
+            {/* CV Download Button */}
+            <a
+                href="/path-to-your-cv.pdf" // Replace with the actual link to your CV
+                download
+                className="mt-6 px-6 py-3 bg-purple-700 text-white font-bold rounded-full shadow-md hover:bg-purple-600 hover:shadow-purple-500/50 hover:scale-105 transition-transform duration-300"
+            >
+                📄 Download My CV
+            </a>
         </div>
     );
 };

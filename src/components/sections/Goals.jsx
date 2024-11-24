@@ -1,4 +1,5 @@
 import React from "react";
+import GlowCard from '../internalSections/GoalCards'
 
 const Goals = () => {
     return (
@@ -23,24 +24,21 @@ const Goals = () => {
                     Like the vastness of space, the journey of knowledge is infinite. Our mission is to explore, innovate, and transcend boundaries—just like the stars.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div className="bg-purple-700 bg-opacity-80 rounded-lg p-6 shadow-md hover:scale-105 transition-transform">
-                        <h3 className="text-2xl font-semibold mb-4">Expand Horizons</h3>
-                        <p>
-                            Venture into uncharted territories of knowledge and discover new dimensions of programming.
-                        </p>
-                    </div>
-                    <div className="bg-purple-700 bg-opacity-80 rounded-lg p-6 shadow-md hover:scale-105 transition-transform">
-                        <h3 className="text-2xl font-semibold mb-4">Reach for the Stars</h3>
-                        <p>
-                            Transform ideas into reality with a bold vision, coding every step of the way.
-                        </p>
-                    </div>
-                    <div className="bg-purple-700 bg-opacity-80 rounded-lg p-6 shadow-md hover:scale-105 transition-transform">
-                        <h3 className="text-2xl font-semibold mb-4">Build a Legacy</h3>
-                        <p>
-                            Leave an impact through innovative solutions that echo like cosmic waves across the universe.
-                        </p>
-                    </div>
+                    <GlowCard
+                        title="Expand Horizons"
+                        description="Venture into uncharted territories of knowledge and discover new dimensions of programming."
+                    />
+
+                    <GlowCard
+                        title="Reach for the Stars"
+                        description="Transform ideas into reality with a bold vision, coding every step of the way."
+                    />            
+                    
+                    <GlowCard
+                        title="Build a Legacy"
+                        description="Leave an impact through innovative solutions that echo like cosmic waves across the universe."
+                    />  
+                    
                 </div>
             </div>
         </section>

@@ -47,6 +47,6 @@ function getDynamicThreshold() {
         return 0.2;
     } else {
         // Si la sección es pequeña o similar al viewport, usa el umbral de 0.5
-        return 0.5;
+        return 0.6;
     }
 }

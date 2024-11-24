@@ -27,24 +27,21 @@ export default function Projects() {
                     title="Mission"
                     description="To create impactful software solutions that solve real-world problems while continuously improving my skills in programming and design."
                     iconSrc="https://img.icons8.com/color/96/rocket.png"
-                    gradient="bg-gradient-to-br from-purple-900 to-black"
-                />
+                    gradient="bg-gradient-to-br from-purple-700 via-indigo-800 to-black"
+                    />
 
                 {/* Vision Card */}
                 <Card
                     title="Vision"
                     description="To become a developer who creates innovative solutions that inspire exploration, curiosity, and a deeper understanding of certain topics"
                     iconSrc="https://img.icons8.com/color/96/telescope.png"
-                    gradient="bg-gradient-to-br from-blue-900 to-black"
-                />
+                    gradient="bg-gradient-to-br from-teal-500 via-green-6 to-emerald-9  "
+                    />
 
                 {/* Values Card */}
                 <Card
                     title="Values"
-                    description=""
-                    iconSrc="https://img.icons8.com/color/96/star.png"
-                    gradient="bg-gradient-to-br from-teal-900 to-black"
-                    additionalContent={
+                    description={
                         <ul className="mt-4 list-disc list-inside">
                             <li>Curiosity</li>
                             <li>Innovation</li>
@@ -53,6 +50,9 @@ export default function Projects() {
                             <li>Adaptability</li>
                         </ul>
                     }
+                    iconSrc="https://img.icons8.com/color/96/star.png"
+                    gradient="bg-gradient-to-br from-sky-700 via-blue-800 to-indigo-900
+"
                 />
             </div>
         </section>
