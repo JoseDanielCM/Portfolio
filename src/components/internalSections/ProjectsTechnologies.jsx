@@ -17,7 +17,7 @@ export default function ProjectsTechnologies() {
         { id: 2, name: 'Library CRUD', linkPagina: "https://josedanielcm.github.io/Proyecto_JavaScript_CarvajalJose/", image: '/public/Library.png', technologies: ['HTML', 'CSS','JavaScript', 'Bootstrap'] },
         { id: 3, name: 'Drone E-commerce Movil', linkPagina: "https://josedanielcm.github.io/DRONE-HIVE/", image: '/public/DroneEcommerce.png', technologies: ['HTML', 'CSS','JavaScript'] },
         { id: 4, name: 'Farm Database',linkPagina: "https://github.com/LuisEderLeon/Finca", image: '/public/ModelDataBase.png', technologies: ['MySQL'] },
-        { id: 5, name: 'Portfolio', linkPagina: "https://github.com/JoseDanielCM/react-portfolio", image: '/path/to/blog-page-image.jpg', technologies: ['HTML', 'CSS','JavaScript', 'React','Tailwind'] },
+        { id: 5, name: 'Portfolio', linkPagina: "https://github.com/JoseDanielCM/react-portfolio", image: '/public/PortfolioImage.png', technologies: ['HTML', 'CSS','JavaScript', 'React','Tailwind'] },
         
     ];
 

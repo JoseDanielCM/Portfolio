@@ -115,6 +115,7 @@ main {
 .profilePhoto{
     margin-left: 23.5%;
     margin-bottom: 1%;
+    opacity: 0;
 }
 
 
@@ -129,6 +130,7 @@ main {
         align-self: center;
         margin-top: 5vw;
         margin-left: 0;
+        opacity: 1;
     }
     #ProfileCard{
         max-width: 80vw;

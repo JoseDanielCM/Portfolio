@@ -5,7 +5,7 @@ export default function Projects() {
     return (
         <section
             id="Mission"
-            className="ralewayBold relative overflow-hidden min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat text-center"
+            className="main-section ralewayBold relative overflow-hidden min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat text-center"
             style={{
                 backgroundImage: "url('/public/backgroundPlanet.jpg')", // Replace with your actual image URL
             }}

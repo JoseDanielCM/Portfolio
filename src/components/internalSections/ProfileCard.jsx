@@ -2,7 +2,7 @@ import React from "react";
 
 const ProfileCard = () => {
     return (
-        <div id="ProfileCard" className="ralewayBold group relative flex flex-col items-center bg-gradient-to-br from-purple-800 via-indigo-900 to-black px-4 py-8 md:p-8 rounded-xl shadow-xl text-white md:max-w-md mx-auto mt-5 mb-10     md:mt-0 transition-transform duration-300 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50">
+        <div id="ProfileCard" className="ralewayBold group relative flex flex-col items-center bg-gradient-to-br from-purple-800 via-indigo-900 to-black px-4 py-8 md:p-8 rounded-xl shadow-xl text-white md:max-w-md mx-auto mt-5 mb-10 md:mt-0 md:mb-0 transition-transform duration-300 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/50">
             {/* Animated Glow Effect */}
             <div className="absolute inset-0 blur-md bg-gradient-to-br from-purple-500 via-blue-700 to-black opacity-0 group-hover:opacity-20 transition-opacity duration-300 rounded-xl"></div>
             
