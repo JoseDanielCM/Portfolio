@@ -1,7 +1,7 @@
 // MainContent.jsx
 import React, { useEffect } from 'react';
 import Profile from './sections/Profile'
-// import Goals from './sections/Goals';
+import Goals from './sections/Goals';
 // import Projects from './sections/Projects'
 // import Mission from './sections/Mission'
 import { initScrollObserver } from '../scrollObserver';
@@ -18,9 +18,9 @@ function MainContent() {
     return (
         <main className='p-0 bg-black'>
             <Profile />
-            {/* 
+            
             <Goals/>
-            <Mission/>
+            {/* <Mission/>
             <Projects/>*/}
         </main>
     );
