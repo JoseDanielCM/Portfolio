@@ -15,7 +15,7 @@ export default function Projects() {
                 <h1 className="text-white relative text-7xl font-bold pt-24 text-center z-50">Mission Vission & Values</h1>
 
             <div className="space-cards-container flex flex-wrap justify-center gap-28 z-50 relative mb-20 mt-10">
-                {/* Mission Card */}
+                {/* MISSION */}
                 <Card
                     title="Mission"
                     description="To create impactful software solutions that solve real-world problems while continuously improving my skills in programming and design."
@@ -23,7 +23,7 @@ export default function Projects() {
                     gradient="bg-gradient-to-br from-purple-700 via-indigo-800 to-black"
                     />
 
-                {/* Vision Card */}
+                {/* VISSION */}
                 <Card
                     title="Vision"
                     description="To become a developer who creates innovative solutions that inspire exploration, curiosity, and a deeper understanding of certain topics"
@@ -31,7 +31,7 @@ export default function Projects() {
                     gradient="bg-gradient-to-br from-teal-600 via-green-700 to-emerald-600  "
                     />
 
-                {/* Values Card */}
+                {/* VALUES */}
                 <Card
                     title="Values"
                     description={

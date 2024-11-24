@@ -8,10 +8,8 @@ import { initScrollObserver } from '../scrollObserver';
 
 function MainContent() {
     useEffect(() => {
-        // Llamar la función para inicializar el observer
         const cleanupObserver = initScrollObserver();
 
-        // Limpiar el observer al desmontar el componente
         return cleanupObserver;
     }, []);
 

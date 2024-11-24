@@ -14,7 +14,6 @@ export default function Projects() {
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat',
         }}>
-            
             <ProjectsTechnologies />
         </section>
     )

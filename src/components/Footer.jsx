@@ -1,11 +1,8 @@
 const Footer = () => {
     return (
         <footer className="relative sectBack-Top py-10 overflow-hidden">
-            
-
-            {/* Main Content */}
             <div className="relative container mx-auto px-6 text-center text-white z-10">
-                {/* Title with Gradient Text */}
+                {/* TITLE */}
                 <h3 className="inline-block text-3xl font-bold mb-8 bg-gradient-to-r text-black shine-animation">
                     🚀 Let's Connect and Build Together!
                 </h3>
@@ -52,22 +49,22 @@ const Footer = () => {
                         aria-label="LinkedIn"
                     >
                         <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-    fill="currentColor"
-    className="w-8 h-8"
->
-    <path d="M4.98 3.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM3.75 8.98h2.46v12.47H3.75V8.98zM8.73 8.98h2.35v1.56c.31-.47.72-.88 1.23-1.19.51-.31 1.1-.46 1.69-.46 1.26 0 2.26.48 3.01 1.43.75.95 1.13 2.26 1.13 3.93v7.24h-2.44v-6.97c0-.99-.23-1.72-.68-2.18-.45-.46-1.06-.69-1.84-.69-.75 0-1.37.23-1.85.7-.48.47-.72 1.22-.72 2.23v6.91h-2.44V8.98z" />
-</svg>
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="currentColor"
+                            className="w-8 h-8"
+                        >
+                            <path d="M4.98 3.5a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM3.75 8.98h2.46v12.47H3.75V8.98zM8.73 8.98h2.35v1.56c.31-.47.72-.88 1.23-1.19.51-.31 1.1-.46 1.69-.46 1.26 0 2.26.48 3.01 1.43.75.95 1.13 2.26 1.13 3.93v7.24h-2.44v-6.97c0-.99-.23-1.72-.68-2.18-.45-.46-1.06-.69-1.84-.69-.75 0-1.37.23-1.85.7-.48.47-.72 1.22-.72 2.23v6.91h-2.44V8.98z" />
+                        </svg>
 
                         
                     </a>
                 </div>
 
-                {/* Decorative Gradient Divider */}
+                {/* GRADIENT DIVIDER */}
                 <div className="animated-line mb-3"></div>
 
-                {/* Footer Text */}
+                {/* TEXT */}
                 <p className="text-sm text-gray-400">
                     © 2024 Jose Daniel. Built with passion, curiosity, and code.
                 </p>

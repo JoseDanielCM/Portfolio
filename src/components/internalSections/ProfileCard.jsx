@@ -34,9 +34,10 @@ const ProfileCard = () => {
             
             {/* CV Download Button */}
             <a
-                href="/path-to-your-cv.pdf" // Replace with the actual link to your CV
-                download
-                className="text-sm sm:text-xl md:text-lg mt-6 px-6 py-3 bg-purple-700 text-white font-bold rounded-full shadow-md hover:bg-purple-600 hover:shadow-purple-500/50 hover:scale-105 transition-transform duration-300"
+                href="https://drive.google.com/drive/folders/1F_XwUAJtereIccBQue5lnj7NBThCr0sG?usp=sharing" // Replace with the actual link to your CV
+
+                target="_blank"
+                className="z-50 text-sm sm:text-xl md:text-lg mt-6 px-6 py-3 bg-purple-700 text-white font-bold rounded-full shadow-md hover:bg-purple-600 hover:shadow-purple-500/50 hover:scale-105 transition-transform duration-300"
             >
                 📄 Download My CV
             </a>

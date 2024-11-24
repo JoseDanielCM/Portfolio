@@ -6,22 +6,22 @@ export function Nav() {
         {
             name: "Profile",
             link: "#Profile",
-            icon: <i className="fas fa-user"></i>, // Ícono de usuario
+            icon: <i className="fas fa-user"></i>,
         },
         {
             name: "Goals",
             link: "#Goals",
-            icon: <i className="fas fa-bullseye"></i>, // Ícono de objetivo
+            icon: <i className="fas fa-bullseye"></i>,
         },
         {
             name: "Mission",
             link: "#Mission",
-            icon: <i className="fas fa-rocket"></i>, // Ícono de cohete
+            icon: <i className="fas fa-rocket"></i>,
         },
         {
             name: "Projects",
             link: "#Projects",
-            icon: <i className="fas fa-project-diagram"></i>, // Ícono de proyectos
+            icon: <i className="fas fa-project-diagram"></i>,
         },
     ];
 
