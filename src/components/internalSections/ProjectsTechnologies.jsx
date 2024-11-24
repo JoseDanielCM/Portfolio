@@ -15,7 +15,7 @@ export default function ProjectsTechnologies() {
     const projects = [
         { id: 1, name: 'Star Wars Data', linkPagina: "https://josedanielcm.github.io/Proyecto_Javascript_CarvajalJose_CondeJuan/", image: '/public/StarWarsImage.png', technologies: ['HTML', 'CSS','JavaScript', 'Bootstrap'] },
         { id: 2, name: 'Library CRUD', linkPagina: "https://josedanielcm.github.io/Proyecto_JavaScript_CarvajalJose/", image: '/public/Library.png', technologies: ['HTML', 'CSS','JavaScript', 'Bootstrap'] },
-        { id: 3, name: 'Drone E-commerce', linkPagina: "https://josedanielcm.github.io/DRONE-HIVE/", image: '/public/DroneEcommerce.png', technologies: ['HTML', 'CSS','JavaScript'] },
+        { id: 3, name: 'Drone E-commerce Movil', linkPagina: "https://josedanielcm.github.io/DRONE-HIVE/", image: '/public/DroneEcommerce.png', technologies: ['HTML', 'CSS','JavaScript'] },
         { id: 4, name: 'Farm Database',linkPagina: "https://github.com/LuisEderLeon/Finca", image: '/public/ModelDataBase.png', technologies: ['MySQL'] },
         { id: 5, name: 'Portfolio', linkPagina: "https://github.com/JoseDanielCM/react-portfolio", image: '/path/to/blog-page-image.jpg', technologies: ['HTML', 'CSS','JavaScript', 'React','Tailwind'] },
         
@@ -37,7 +37,7 @@ export default function ProjectsTechnologies() {
 
     return (
         <div className='z-50 relative p-5'>
-            <h2 className='text-white text-center text-7xl font-bold pt-20 pb-10'>Technologies</h2>
+            <h2 className='text-white text-center text-5xl sm:text-6xl md:text-7xl font-bold pt-20 pb-10'>Technologies</h2>
 
             {/* TECHNOLOGIES BUTTONS */}
             <div style={{ marginBottom: '20px' }} className='w-full flex justify-center flex-wrap'>
@@ -84,7 +84,7 @@ export default function ProjectsTechnologies() {
 
             {/* -------------------------------------------------------------------------------------------- */}
             {/* Render filtered projects */}
-            <h2 className=' text-center text-7xl font-bold pb-7'>Projects</h2>
+            <h2 className=' text-center text-5xl sm:text-6xl md:text-7xl font-bold pb-7'>Projects</h2>
             <div className='flex flex-wrap justify-center gap-5 pb-20'>
                 {filteredProjects.map((project) => (
                     <div

@@ -3,7 +3,7 @@ import GlowCard from '../internalSections/GoalCards'
 
 const Goals = () => {
     return (
-        <section id="Goals" className="ralewayBold main-section relative text-white h-screen pt-24 px-8 overflow-hidden z-10">
+        <section id="Goals" className="ralewayBold main-section relative text-white md:h-screen pt-24 px-8 overflow-hidden z-10">
             {/* Background Video */}
             <video
                 autoPlay
@@ -23,7 +23,7 @@ const Goals = () => {
                 <p className="ralewayNormal text-lg leading-7 mb-12">
                     Like the vastness of space, the journey of knowledge is infinite. Our mission is to explore, innovate, and transcend boundaries—just like the stars.
                 </p>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 justify-center ">
                     <GlowCard
                         title="Expand Horizons"
                         description="Venture into uncharted territories of knowledge and discover new dimensions of programming."
@@ -37,6 +37,7 @@ const Goals = () => {
                     <GlowCard
                         title="Create a Legacy"
                         description="Leave an impact through innovative solutions that echo like cosmic waves across the universe."
+
                     />  
                     
                 </div>
