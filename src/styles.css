@@ -108,3 +108,33 @@ main {
     background-color: black;
 }
 
+.videoProfile{
+    transform: translateX(-25vw) scale(1.5);
+    object-fit: cover;
+}
+.profilePhoto{
+    margin-left: 23.5%;
+    margin-bottom: 1%;
+}
+
+
+/* Clase para pantallas menores a md */
+@media (max-width: 767px) {
+    .videoProfile {
+        transform: translateY(0) scale(1) ;
+        object-fit: cover;
+        margin: 0;
+    }
+    .profilePhoto{
+        align-self: center;
+        margin-top: 5vw;
+        margin-left: 0;
+    }
+    #ProfileCard{
+        max-width: 80vw;
+    }
+    
+}
+
+
+
