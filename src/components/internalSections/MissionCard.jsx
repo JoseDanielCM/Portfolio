@@ -21,7 +21,7 @@ const Card = ({ title, description, iconSrc, additionalContent, gradient }) => {
             </h3>
 
             {/* Description */}
-            <p className="text-center text-lg mt-4 opacity-90 leading-relaxed">
+            <p className="ralewayNormal text-center text-lg mt-4 opacity-90 leading-relaxed">
                 {description}
             </p>
 

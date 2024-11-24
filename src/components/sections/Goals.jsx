@@ -3,7 +3,7 @@ import GlowCard from '../internalSections/GoalCards'
 
 const Goals = () => {
     return (
-        <section id="Goals" className="main-section relative text-white h-screen pt-24 px-8 overflow-hidden z-10">
+        <section id="Goals" className="ralewayBold main-section relative text-white h-screen pt-24 px-8 overflow-hidden z-10">
             {/* Background Video */}
             <video
                 autoPlay
@@ -19,8 +19,8 @@ const Goals = () => {
 
             {/* Content Overlay */}
             <div className="relative z-10 max-w-4xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-6">Mission Objectives...</h2>
-                <p className="text-lg leading-7 mb-12">
+            <h2 className="text-6xl font-bold mb-6">Goals and Objectives</h2>
+                <p className="ralewayNormal text-lg leading-7 mb-12">
                     Like the vastness of space, the journey of knowledge is infinite. Our mission is to explore, innovate, and transcend boundaries—just like the stars.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -35,7 +35,7 @@ const Goals = () => {
                     />            
                     
                     <GlowCard
-                        title="Build a Legacy"
+                        title="Create a Legacy"
                         description="Leave an impact through innovative solutions that echo like cosmic waves across the universe."
                     />  
                     

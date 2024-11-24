@@ -11,7 +11,7 @@ const GlowCard = ({ title, description }) => {
                 <h3 className="text-3xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-500">
                     {title}
                 </h3>
-                <p className="text-lg leading-relaxed text-neutral-300">{description}</p>
+                <p className="ralewayNormal text-lg leading-relaxed text-white">{description}</p>
             </div>
 
             {/* Decorative Border */}

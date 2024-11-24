@@ -5,18 +5,11 @@ export default function Projects() {
     return (
         <section
             id="Mission"
-            className="main-section relative overflow-hidden min-h-screen"
-            
+            className="ralewayBold relative overflow-hidden min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat text-center"
+            style={{
+                backgroundImage: "url('/public/backgroundPlanet.jpg')", // Replace with your actual image URL
+            }}
         >
-            <video
-                autoPlay
-                loop
-                muted
-                className="absolute top-0 left-0 w-full h-full object-cover z-0"
-            >
-                <source src="/public/MissionBackground.mp4" type="video/mp4" />
-            </video>
-
             <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-10"></div>
 
                 <h1 className="text-white relative text-7xl font-bold pt-24 text-center z-50">Mission Vission & Values</h1>
@@ -35,7 +28,7 @@ export default function Projects() {
                     title="Vision"
                     description="To become a developer who creates innovative solutions that inspire exploration, curiosity, and a deeper understanding of certain topics"
                     iconSrc="https://img.icons8.com/color/96/telescope.png"
-                    gradient="bg-gradient-to-br from-teal-500 via-green-6 to-emerald-9  "
+                    gradient="bg-gradient-to-br from-teal-600 via-green-700 to-emerald-600  "
                     />
 
                 {/* Values Card */}

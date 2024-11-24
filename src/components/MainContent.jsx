@@ -18,7 +18,6 @@ function MainContent() {
     return (
         <main className='p-0 bg-black'>
             <Profile />
-            
             <Goals/>
             <Mission/>
             <Projects/>
