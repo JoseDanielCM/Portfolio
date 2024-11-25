@@ -8,7 +8,7 @@ const ProfileCard = () => {
             
             {/* Profile Greeting */}
             <h2 className="text-xl sm:text-2xl md:text-3xl  font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-purple-500 group-hover:scale-110 group-hover:opacity-90 transition-transform duration-300 ease-out">
-                Hi, I'm Daniel 👋
+                Hi, I'm Jose 👋
             </h2>
             <p className="text-center text-xs sm:text-sm md:text-base leading-relaxed opacity-90 group-hover:opacity-100 transition-opacity duration-300">
                 I'm a developer who loves learning and building new things. I'm always looking for ways to improve and take on new challenges. Welcome!

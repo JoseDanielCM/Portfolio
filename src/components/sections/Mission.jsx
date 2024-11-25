@@ -19,7 +19,7 @@ export default function Projects() {
                 {/* MISSION */}
                 <Card
                     title="Mission"
-                    description="To create impactful software solutions that solve real-world problems while continuously improving my skills in programming and design."
+                    description="To create impactful software solutions that solve real-world problems while continuously improving my skills in programming."
                     iconSrc="https://img.icons8.com/color/96/rocket.png"
                     gradient="bg-gradient-to-br from-purple-700 via-indigo-800 to-black"
                     />
