@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "../InternalSections/MissionCard"; 
+import { getPublicUrl } from '../../utils/utils'; 
 
 export default function Projects() {
     return (
@@ -7,7 +8,7 @@ export default function Projects() {
             id="Mission"
             className="main-section ralewayBold relative overflow-hidden min-h-screen flex flex-col items-center justify-center bg-cover bg-center bg-no-repeat text-center"
             style={{
-                backgroundImage: "url('/public/backgroundPlanet.jpg')", // Replace with your actual image URL
+                backgroundImage: `url(${getPublicUrl('backgroundPlanet.jpg')})`, // Replace with your actual image URL
             }}
         >
             <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black z-10"></div>

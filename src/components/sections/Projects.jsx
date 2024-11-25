@@ -1,5 +1,7 @@
 import React from 'react'
 import  ProjectsTechnologies  from '../InternalSections/ProjectsTechnologies'
+import { getPublicUrl } from '../../utils/utils'; 
+
 
 export default function Projects() {
     return (
@@ -8,7 +10,7 @@ export default function Projects() {
             backgroundImage: `
                 linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 20%),
                 linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0) 20%),
-                URL("/public/SunBackground.png")
+                URL(${getPublicUrl("SunBackground.png")})
             `,
             backgroundSize: 'cover',
             backgroundPosition: 'center',

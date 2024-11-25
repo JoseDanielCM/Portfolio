@@ -1,6 +1,7 @@
 // Profile.jsx
 import React from 'react';
 import ProfileCard from '../InternalSections/ProfileCard';
+import { getPublicUrl } from '../../utils/utils'; 
 
 function Profile() {
     return (
@@ -12,7 +13,7 @@ function Profile() {
                 loop
                 className="videoProfile absolute inset-0 w-full h-full object-cover z-0"
             >
-                <source src="/public/ProfileBackgroundWithPhoto.mp4" type="video/mp4" />
+                <source src={getPublicUrl("ProfileBackgroundWithPhoto.mp4")} type="video/mp4" />
             </video>
 
             {/* DARK GRADIENT */}
@@ -22,7 +23,7 @@ function Profile() {
             <div className="w-screen relative z-20 flex flex-col md:flex-row md:items-center justify-center text-white p-0">
                 {/* PROFILEPHOTO */}
                 <div className="profilePhoto w-44 h-44 md:w-1/6 md:h-1/6 rounded-full overflow-hidden flex-shrink-0 mb-4 md:mb-0 relative">
-                    <img src="/public/ProfilePhoto.png" alt="Profile Photo" className="w-full h-full object-cover" />
+                    <img src={getPublicUrl("ProfilePhoto.png")} alt="Profile Photo" className="w-full h-full object-cover" />
                 </div>
                 <ProfileCard/>
             </div>

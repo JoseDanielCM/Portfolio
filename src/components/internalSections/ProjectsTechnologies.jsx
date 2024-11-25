@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { getPublicUrl } from '../../utils/utils'; 
 
 export default function ProjectsTechnologies() {
     // List of technologies with icons
@@ -13,11 +14,11 @@ export default function ProjectsTechnologies() {
     ];
     // List of projects with associated technologies
     const projects = [
-        { id: 1, name: 'Star Wars Data', linkPagina: "https://josedanielcm.github.io/Proyecto_Javascript_CarvajalJose_CondeJuan/", image: '/public/StarWarsImage.png', technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'] },
-        { id: 2, name: 'Library CRUD', linkPagina: "https://josedanielcm.github.io/Proyecto_JavaScript_CarvajalJose/", image: '/public/Library.png', technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'] },
-        { id: 3, name: 'Drone E-commerce Movil', linkPagina: "https://josedanielcm.github.io/DRONE-HIVE/", image: '/public/DroneEcommerce.png', technologies: ['HTML', 'CSS', 'JavaScript'] },
-        { id: 4, name: 'Farm Database', linkPagina: "https://github.com/LuisEderLeon/Finca", image: '/public/ModelDataBase.png', technologies: ['MySQL'] },
-        { id: 5, name: 'Portfolio', linkPagina: "https://github.com/JoseDanielCM/finalFinalPortfolio", image: '/public/PortfolioImage.png', technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind'] },
+        { id: 1, name: 'Star Wars Data', linkPagina: "https://josedanielcm.github.io/Proyecto_Javascript_CarvajalJose_CondeJuan/", image: 'StarWarsImage.png', technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'] },
+        { id: 2, name: 'Library CRUD', linkPagina: "https://josedanielcm.github.io/Proyecto_JavaScript_CarvajalJose/", image: 'Library.png', technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'] },
+        { id: 3, name: 'Drone E-commerce Movil', linkPagina: "https://josedanielcm.github.io/DRONE-HIVE/", image: 'DroneEcommerce.png', technologies: ['HTML', 'CSS', 'JavaScript'] },
+        { id: 4, name: 'Farm Database', linkPagina: "https://github.com/LuisEderLeon/Finca", image: 'ModelDataBase.png', technologies: ['MySQL'] },
+        { id: 5, name: 'Portfolio', linkPagina: "https://github.com/JoseDanielCM/finalFinalPortfolio", image: 'PortfolioImage.png', technologies: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind'] },
 
     ];
 
@@ -91,7 +92,7 @@ export default function ProjectsTechnologies() {
                         {/* Image space */}
                         <div className="w-full h-[250px] bg-[#3E2A8A] rounded-lg mb-4">
                             <img
-                                src={project.image || '/path/to/placeholder-image.jpg'}
+                                src={ getPublicUrl(project.image) || '/path/to/placeholder-image.jpg'}
                                 alt={project.name}
                                 className="w-full h-full object-cover rounded-lg"
                             />

@@ -1,5 +1,6 @@
 import React from "react";
 import GlowCard from '../internalSections/GoalCards'
+import { getPublicUrl } from '../../utils/utils'; 
 
 const Goals = () => {
     return (
@@ -11,7 +12,7 @@ const Goals = () => {
                 muted
                 className="absolute top-0 left-0 w-full h-full object-cover z-[-2]"
                 >
-                <source src="/public/GoalBackground.mp4" type="video/mp4" />
+                <source src={getPublicUrl("GoalBackground.mp4")} type="video/mp4" />
             </video>
 
             {/* BACK GRADIENT */}
