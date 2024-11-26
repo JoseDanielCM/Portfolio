@@ -66,7 +66,7 @@ const Footer = () => {
 
                 {/* TEXT */}
                 <p className="text-sm text-gray-400">
-                    © 2024 Jose Daniel. Built with passion, curiosity, and code.
+                    2024 Jose Daniel. Built with passion and curiosity.
                 </p>
             </div>
         </footer>
