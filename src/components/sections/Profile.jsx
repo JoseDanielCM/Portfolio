@@ -13,7 +13,7 @@ function Profile() {
                 loop
                 className="videoProfile absolute inset-0 w-full h-full object-cover z-0"
             >
-                <source src={getPublicUrl("ProfileBackgroundWithPhoto.mp4")} type="video/mp4" />
+                <source src={getPublicUrl("profileBackground.mp4")} type="video/mp4" />
             </video>
 
             {/* DARK GRADIENT */}
